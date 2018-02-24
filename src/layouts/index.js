@@ -7,8 +7,6 @@ import './main.scss'
 
 class TemplateWrapper extends Component {
   componentDidMount = () => {
-    console.log('hi');
-
     window.Tawk_API = window.Tawk_API||{}
     window.Tawk_LoadStart = new Date();
 
