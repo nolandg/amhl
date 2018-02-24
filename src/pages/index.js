@@ -1,6 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+const chatLink = () => (
+  <a href="#" onClick={event => {
+
+    }}>chat</a>
+)
+
 const IndexPage = () => (
   <div>
     <header id="site-header">
@@ -33,7 +39,7 @@ const IndexPage = () => (
       <p>
         Rates vary from $40-60/hour depending on the type of math instruction.
         We will first discuss your problem together and I will provide a quote.
-        Assignment help is custom quoted instantly&mdash;<strong>just chat with me or call 604-618-7227 to discuss</strong>.
+        Assignment help is custom quoted instantly&mdash;<strong>just {chatLink} with me or call 604-618-7227 to discuss</strong>.
       </p>
     </div>
 
