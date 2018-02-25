@@ -29,12 +29,14 @@ a:active{
   .overlay{
     position: absolute;
     z-index: 1;
-    width: 100%;
-    height: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
     background-color: rgba(0,0,0,.6);
   }
 
-  h1, p{
+  h1, p, li, ul, div{
     z-index: 10;
     color: #FFF;
     text-align: center;
@@ -54,9 +56,26 @@ a:active{
   }
 
   p{
+    margin: 0 0;
+    padding: 0 0;
     font-size: 22px;
     line-height: 1.5;
+  }
+
+  ul{
+    font-size: 22px;
+    margin: 0em 0 0em 2em;
+  }
+  li{
+    text-align: left;
+  }
+
+  .list{
     margin-top: 40px;
+
+    p{
+      text-align: left;
+    }
   }
 }
 

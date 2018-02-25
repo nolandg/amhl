@@ -10,11 +10,29 @@ const IndexPage = () => (
         Advanced Math&nbsp;Help
         <div className="sub">Live 7 days/week</div>
       </h1>
-      <p>
-        Get live help with your college/university assignments and courses 7 days a week.
+
+      {/* <p>
+        Get live help with your college/university/grad school assignments and courses 7 days a week.
         <br /><br />
         Chat with me now for an instant quote!
+      </p> */}
+
+      <div className="list">
+        <p>
+          Get live help with your:
+        </p>
+        <ul>
+          <li>College</li>
+          <li>University</li>
+          <li>Grad school</li>
+        </ul>
+        <p>assignments and courses 7 days/week.</p>
+      </div>
+
+      <p>
+        <br/>Chat with me now for an instant quote!
       </p>
+
     </header>
 
     <div id="site-content">
