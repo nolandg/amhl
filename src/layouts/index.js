@@ -31,11 +31,12 @@ class TemplateWrapper extends Component {
         />
         <Helmet>
           {/* <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" /> */}
-          <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet" />
+          {/* <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet" /> */}
         </Helmet>
-        <div>
           {this.props.children()}
-        </div>
+          <style>
+            @import "//fonts.googleapis.com/css?family=Karla:400,700"
+          </style>
       </div>
     );
   }
