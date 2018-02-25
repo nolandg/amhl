@@ -11,13 +11,14 @@ const IndexPage = () => (
         <div className="sub">Live 7 days/week</div>
       </h1>
 
-      {/* <p>
-        Get live help with your college/university/grad school assignments and courses 7 days a week.
+      <p>
+        <br/>
+        Get live help with your college/university/grad&nbsp;school<br />assignments and courses 7 days a week.
         <br /><br />
         Chat with me now for an instant quote!
-      </p> */}
+      </p>
 
-      <div className="list">
+      {/* <div className="list">
         <p>
           Get live help with your:
         </p>
@@ -31,7 +32,7 @@ const IndexPage = () => (
 
       <p>
         <br/>Chat with me now for an instant quote!
-      </p>
+      </p> */}
 
     </header>
 
@@ -62,9 +63,9 @@ const IndexPage = () => (
       <div>
         &copy; Copyright 2018 Anastasiya Lukyanova, all rights reserved
       </div>
-      <div>
+      {/* <div>
         <a href="mailto:Ana@AdvancedMathHelp.live">Ana@AdvancedMathHelp.live</a>
-      </div>
+      </div> */}
     </footer>
 
   </div>
