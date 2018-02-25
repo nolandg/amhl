@@ -61,7 +61,8 @@ const IndexPage = () => (
 
     <footer id="site-footer">
       <div>
-        &copy; Copyright 2018 Anastasiya Lukyanova, all rights reserved
+        &copy; Copyright 2018 Anastasiya Lukyanova
+        <br />All rights reserved.
       </div>
       {/* <div>
         <a href="mailto:Ana@AdvancedMathHelp.live">Ana@AdvancedMathHelp.live</a>
